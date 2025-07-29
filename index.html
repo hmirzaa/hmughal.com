@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Aslam - Full Stack Developer</title>
+    <meta name="description" content="Hamza Aslam - Full Stack Developer specializing in React, Node.js, and modern web technologies">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Hamza</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Hamza Aslam</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span class="typing-text"></span>
+                    </div>
+                    <p class="hero-description">
+                        Full Stack Developer with expertise in React, Node.js, and modern web technologies. 
+                        Currently pursuing MS in Computer Science at TU Dresden and working as a React Developer at Fraunhofer HHI.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#skills" class="btn btn-primary">View My Skills</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <img class="profile-image" src="./assets/profile.jpeg" alt="Profile Image">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <a href="#about" class="scroll-down">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-bg-animation" style="display: none;"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Full Stack Developer with over 8 years of experience in web development. 
+                        Currently pursuing my Master's in Computer Science at TU Dresden, Germany, while working as a React Developer at Fraunhofer HHI.
+                    </p>
+                    <p>
+                        My journey in tech started in 2016, and since then I've worked with various companies from startups to established organizations, 
+                        helping them build scalable web applications and improve their digital presence.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="8">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="50">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="25">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="info-card">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>MS in Computer Science</h4>
+                            <p>TU Dresden, Germany (2023-Present)</p>
+                            <span class="subjects">Visual Computing, AI, UI Engineering</span>
+                        </div>
+                        <div class="education-item">
+                            <h4>BS in Computer Science</h4>
+                            <p>Air University, Pakistan (2020)</p>
+                            <span class="subjects">Software Engineering, Data Structures</span>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <h3>Languages</h3>
+                        <div class="language-item">
+                            <span>English</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="language-item">
+                            <span>German</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2025 - Present</div>
+                        <h3>React Developer</h3>
+                        <h4>TU Dresden Fraunhofer HHI - Berlin, Germany</h4>
+                        <ul>
+                            <li>Developed responsive React components for education-focused SaaS platform, enhancing user experience and performance while integrating RESTful APIs and implementing dynamic dashboards for real-time data visualization.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aug 2024 - Jan 2025</div>
+                        <h3>MERN Stack Developer</h3>
+                        <h4>TU Dresden - Dresden, Germany</h4>
+                        <ul>
+                            <li>Led development of cutting-edge research web application for human genetics, enabling streamlined data analysis and visualization for research purposes.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">July 2023 - Sep 2023</div>
+                        <h3>Senior Software Engineer</h3>
+                        <h4>PureLogics - Lahore, Pakistan</h4>
+                        <ul>
+                            <li>Designed robust backend systems ensuring seamless data processing and storage while implementing comprehensive user activity history management system, improving processing efficiency by 25%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2022 - Feb 2023</div>
+                        <h3>Project Manager</h3>
+                        <h4>House of Techies - Kolkata, India</h4>
+                        <ul>
+                            <li>Managed cross-functional teams to complete 5 projects with 90% customer satisfaction while leading daily Scrums with 10 developers, improving efficiency by 20% and reducing system errors by 15%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2021 - Jan 2022</div>
+                        <h3>Full Stack Web Developer</h3>
+                        <h4>Upwork - Remote</h4>
+                        <ul>
+                            <li>Implemented SEO best practices resulting in 40% increase in organic traffic while developing custom e-commerce solutions with 100% increase in online sales and improving load times by 15 seconds through responsive design optimization.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Nov 2020 - Jan 2021</div>
+                        <h3>MERN Stack Developer</h3>
+                        <h4>TeamIT - Paris, France</h4>
+                        <ul>
+                            <li>Oversaw integration of third-party software solutions into backend system, reducing manual data entry by 25% while implementing multi-threading functionality for 50% faster response time and developing comprehensive testing plan that resolved 20+ critical issues for seamless migration of 500+ clients.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sep 2016 - July 2020</div>
+                        <h3>Web Developer</h3>
+                        <h4>Fiverr - Remote</h4>
+                        <ul>
+                            <li>Engineered and launched mobile-responsive websites for 25+ clients achieving 4.8-star average rating while boosting website rankings by 10 positions through SEO optimization techniques.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2016 - Aug 2016</div>
+                        <h3>Intern Web Developer</h3>
+                        <h4>SkillTechnologies</h4>
+                        <ul>
+                            <li>Formulated dynamic website utilizing Bootstrap and JavaScript resulting in 40% increase in user engagement while applying secure authentication protocols and API integration for 95% reduction in website vulnerabilities and utilizing SQL to develop database of 50,000+ customer records improving data accuracy by 95%.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-tag">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-js-square"></i>
+                            <span>jQuery</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-react"></i>
+                            <span>Next.js</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>React Native</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-js-square"></i>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>GraphQL</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-palette"></i>
+                            <span>Material UI</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-tag">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-server"></i>
+                            <span>Express.js</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-bolt"></i>
+                            <span>Fastify</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-code"></i>
+                            <span>REST APIs</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>GraphQL API</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-laravel"></i>
+                            <span>Laravel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skills-list">
+                        <div class="skill-tag">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Testing & Quality Assurance</h3>
+                    <div class="skills-list">
+                        <div class="skill-tag">
+                            <i class="fas fa-vial"></i>
+                            <span>Jest</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-coffee"></i>
+                            <span>Mocha & Chai</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>DevOps & Automation</h3>
+                    <div class="skills-list">
+                        <div class="skill-tag">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-bitbucket"></i>
+                            <span>Bitbucket</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Cloud & Additional Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-tag">
+                            <i class="fab fa-google"></i>
+                            <span>GCP Compute Engine</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-cloud"></i>
+                            <span>GCP Storage</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-server"></i>
+                            <span>Virtual Machines</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>DataProc</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS Lambda</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-aws"></i>
+                            <span>S3 Bucket</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-wordpress"></i>
+                            <span>WordPress</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>School of Tomorrow</h3>
+                        <p>Mobile application for educational institution built with React Native and PHP Laravel backend with Oracle DB.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">PHP Laravel</span>
+                            <span class="tech-tag">Oracle DB</span>
+                        </div>
+                        <div class="project-stats">
+                            <span>40% increase in app downloads</span>
+                            <span>4.8/5 user satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Guess What I Like</h3>
+                        <p>Scalable MERN stack web application connecting 100+ celebrities with 50,000+ fans with integrated payment processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MERN Stack</span>
+                            <span class="tech-tag">Stripe</span>
+                            <span class="tech-tag">Real-time</span>
+                        </div>
+                        <div class="project-stats">
+                            <span>30% increase in fan engagement</span>
+                            <span>60% improved user retention</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>LaClasse LMS</h3>
+                        <p>Highly efficient learning management system using MERN stack with optimized database performance for 5,000+ students.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MERN Stack</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Performance</span>
+                        </div>
+                        <div class="project-stats">
+                            <span>75% faster load times</span>
+                            <span>50% reduced query time</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>itshmirzaa@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+49 157 54774868</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Dresden, Germany</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/hmughal" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/hmirzaa" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Hamza Aslam. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
