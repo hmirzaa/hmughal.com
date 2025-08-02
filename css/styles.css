@@ -810,7 +810,12 @@ body {
 }
 
 /* Responsive Design */
+/* Mobile styles */
 @media (max-width: 768px) {
+    .hero-title {
+        margin-top: 2rem;
+    }
+    
     .nav-menu {
         position: fixed;
         left: -100%;
